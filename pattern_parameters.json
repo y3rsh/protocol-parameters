@@ -1,0 +1,95 @@
+[
+    {
+        "label":"Dry Run",
+        "name":"DRYRUN",
+        "options": [
+            {
+                "label": "no",
+                "value": false
+            },
+            {
+                "label": "yes",
+                "value": true
+            }
+        ],
+        "type": "dropDown"
+    },
+    {
+        "label":"Use Gripper",
+        "name":"USE_GRIPPER",
+        "options": [
+            {
+                "label": "yes",
+                "value": true
+            },
+            {
+                "label": "no",
+                "value": false
+            }
+        ],
+        "type": "dropDown"
+    },
+    {
+        "label":"Trash Tips",
+        "name":"TIP_TRASH",
+        "options": [
+            {
+                "label": "yes",
+                "value": true
+            },
+            {
+                "label": "no",
+                "value": false
+            }
+        ],
+        "type": "dropDown"
+    },
+    {
+        "label":"Deactivate Temperatures",
+        "name":"DEACTIVATE_TEMP",
+        "options": [
+            {
+                "label": "yes",
+                "value": true
+            },
+            {
+                "label": "no",
+                "value": false
+            }
+        ],
+        "type": "dropDown"
+    },
+    {
+        "default": 3,
+        "label":"Columns of Samples",
+        "name":"COLUMNS",
+        "type":"int"
+    },
+    {
+        "default": 15,
+        "label":"Fragmentation Time",
+        "name":"FRAGTIME",
+        "type":"int"
+    },
+    {
+        "default": 6,
+        "label":"PCR Cycles",
+        "name":"PCRCYCLES",
+        "type":"int"
+    },
+    {
+        "label":"Default Module Offsets",
+        "name":"DEFAULT_OFFSETS",
+        "options": [
+            {
+                "label": "no",
+                "value": false
+            },
+            {
+                "label": "yes",
+                "value": true
+            }
+        ],
+        "type": "dropDown"
+    }
+]
