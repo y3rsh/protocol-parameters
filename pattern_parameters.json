@@ -1,95 +1,65 @@
 [
     {
-        "label":"Dry Run",
-        "name":"DRYRUN",
-        "options": [
-            {
-                "label": "no",
-                "value": false
-            },
-            {
-                "label": "yes",
-                "value": true
-            }
-        ],
-        "type": "dropDown"
+        "label": "Integer Example",
+        "name": "integer_example",
+        "type": "int",
+        "default": 1
     },
     {
-        "label":"Use Gripper",
-        "name":"USE_GRIPPER",
-        "options": [
-            {
-                "label": "yes",
-                "value": true
-            },
-            {
-                "label": "no",
-                "value": false
-            }
-        ],
-        "type": "dropDown"
+        "label": "Float Example",
+        "name": "float_example",
+        "type": "float",
+        "default": 1.0
     },
     {
-        "label":"Trash Tips",
-        "name":"TIP_TRASH",
+        "label": "String Example",
+        "name": "string_example",
+        "type": "str",
+        "default": "string_example"
+    },
+    {
+        "label": "Options Boolean Example Default True",
+        "name": "options_boolean_example_default_true",
+        "type": "dropDown",
         "options": [
             {
-                "label": "yes",
+                "label": "Yes",
                 "value": true
             },
             {
-                "label": "no",
+                "label": "No",
                 "value": false
             }
-        ],
-        "type": "dropDown"
+        ]
     },
     {
-        "label":"Deactivate Temperatures",
-        "name":"DEACTIVATE_TEMP",
+        "label": "Options Boolean Example Default False",
+        "name": "options_boolean_example_default_false",
+        "type": "dropDown",
         "options": [
             {
-                "label": "yes",
-                "value": true
-            },
-            {
-                "label": "no",
-                "value": false
-            }
-        ],
-        "type": "dropDown"
-    },
-    {
-        "default": 3,
-        "label":"Columns of Samples",
-        "name":"COLUMNS",
-        "type":"int"
-    },
-    {
-        "default": 15,
-        "label":"Fragmentation Time",
-        "name":"FRAGTIME",
-        "type":"int"
-    },
-    {
-        "default": 6,
-        "label":"PCR Cycles",
-        "name":"PCRCYCLES",
-        "type":"int"
-    },
-    {
-        "label":"Default Module Offsets",
-        "name":"DEFAULT_OFFSETS",
-        "options": [
-            {
-                "label": "no",
+                "label": "No",
                 "value": false
             },
             {
-                "label": "yes",
+                "label": "Yes",
                 "value": true
             }
-        ],
-        "type": "dropDown"
+        ]
+    },
+    {
+        "label": "Choose your pipette",
+        "name": "options_string_example",
+        "type": "dropDown",
+        "options": [
+            {
+                "label": "1-50\u00b5L",
+                "value": "flex_1channel_50"
+            },
+            {
+                "label": "50-1000\u00b5L",
+                "value": "flex_1channel_1000"
+            }
+        ]
     }
 ]
