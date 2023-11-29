@@ -8,16 +8,6 @@ def get_values(*names):
             return [_all_values[n] for n in names]
 '''
 
-
-def get_values_test(*names):
-    import json
-
-    _all_values = json.loads(
-        """{"int_example":2,"float_example":2.0,"string_example":"string_example_test","options_boolean_example_default_true":"True","options_boolean_example_default_false":"False"}"""
-    )
-    return [_all_values[n] for n in names]
-
-
 metadata = {
     # Leave out the protocol name so that the filename is used in the app
     # Protocol Library will allow you to name the protocol file on download
