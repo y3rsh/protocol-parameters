@@ -7,6 +7,11 @@ def get_values(*names):
             _all_values = json.loads("""{"integer_example":1,"float_example":1,"string_example":"string_example","options_boolean_example_default_true":true,"options_boolean_example_default_false":false,"options_string_example":"flex_1channel_1000","protocol_filename":"pattern5"}""")
             return [_all_values[n] for n in names]
 '''
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# If you upload a protocol to the protocol library that has a get_values function defined
+# the parameters selected and inserted into the protocol upon download
+# !!!WILL NOT BE USED!!!
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! IMPORTANT !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 metadata = {
     # Leave out the protocol name so that the filename is used in the app

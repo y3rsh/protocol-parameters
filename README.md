@@ -1,16 +1,37 @@
 # Template for Protocol Library Parameters
 
-Until we have built in protocol parameterization this pattern allows us to define parameters and upload them to the protocol library.  This pattern is the simplest I came up with that allows for the `get_values` function without needing to edit the protocol between analysis and Protocol Library upload using variables in a way I see folks using them.
+> Protocol Library Parameters provide a user interface for setting variable values when downloading a protocol from the protocol library.
 
-## [pattern.py](pattern.py)
+- protocol parameters are not required but greatly enhance the user experience if appropriate
+- **If** a protocol has parameters uploaded to the protocol library
+  - the download button on the protocol details page will present the user with a dialogue to set the values for the parameters
+  - if the user makes no changes, the default values are used
+  - the protocol file downloaded has the get_values function pre-pended (at line 1) in the protocol text with the values set in the dialogue
 
-This file contains the pattern for defining parameters and an example `get_values` function.
-If a protocol has parameters uploaded to the protocol library, the download button on the protocol details page will present the user with a dialogue to set the values for the parameters.  The values in the dialogue used to construct the `get_values` function.  This text is pre-pended to the top of the protocol file.
+## Why use this template?
 
-- If you define your variables/parameters as I suggest then you may analyze the protocol and upload it to the protocol library without editing the protocol file.
+- It's a simple solution to use parameters (the `get_values` function) without needing to define a `get_values` function during development
+- It alleviates the need to edit the protocol file before uploading to the protocol library
+- It is aligned with common variable practices observed
+
+## What parameters are available to you?
+
+> Parameters are defined in JSON and uploaded to the protocol library with the protocol file.
+
+![Defining Parameters](media\params.png)
 
 ## [pattern_parameters.json](pattern_parameters.json)
 
-This is the json defining the parameters used in the pattern.py file.  This file is uploaded to the protocol library with the protocol file.  The parameters are defined in the json then is used by the PL to create the dialogue and get values function on protocol download
+> The example parameters file
+
+### What this example looks like on the protocol library
 
 ![Download Dialog](media/downloaddialogue.png)
+
+## [pattern.py](pattern.py)
+
+> The example protocol file
+
+- This file contains a code pattern for defining/reading parameters with or without a `get_values` function defined
+- It is best practice to map variable names exactly to the parameter names
+- If you define your variables/parameters as suggested then you may analyze the protocol and upload it to the protocol library without editing the protocol file.
