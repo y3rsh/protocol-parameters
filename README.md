@@ -18,7 +18,7 @@
 
 > Parameters are defined in JSON and uploaded to the protocol library with the protocol file.
 
-![Defining Parameters](media\params.png)
+![Defining Parameters](media/params.png)
 
 ## [pattern_parameters.json](pattern_parameters.json)
 
