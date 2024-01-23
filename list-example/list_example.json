@@ -1,0 +1,98 @@
+[
+    {
+        "label": "Insert 1",
+        "name": "insert_1",
+        "type": "int",
+        "default": 1
+    },
+    {
+        "label": "Vector 1",
+        "name": "vector_1",
+        "type": "int",
+        "default": 1
+    },
+    {
+        "label": "Insert 2 (set to 0 to disable)",
+        "name": "insert_2",
+        "type": "int",
+        "default": 1
+    },
+    {
+        "label": "Vector 2 (set to 0 to disable)",
+        "name": "vector_2",
+        "type": "int",
+        "default": 1
+    },
+    {
+        "label": "Insert 3 (set to 0 to disable)",
+        "name": "insert_3",
+        "type": "int",
+        "default": 1
+    },
+    {
+        "label": "Vector 3 (set to 0 to disable)",
+        "name": "vector_3",
+        "type": "int",
+        "default": 1
+    },
+    {
+        "label": "Insert 4 (set to 0 to disable)",
+        "name": "insert_4",
+        "type": "int",
+        "default": 1
+    },
+    {
+        "label": "Vector 4 (set to 0 to disable)",
+        "name": "vector_4",
+        "type": "int",
+        "default": 1
+    },
+    {
+        "label": "Insert 5 (set to 0 to disable)",
+        "name": "insert_5",
+        "type": "int",
+        "default": 2
+    },
+    {
+        "label": "Vector 5 (set to 0 to disable)",
+        "name": "vector_5",
+        "type": "int",
+        "default": 2
+    },
+    {
+        "label": "Insert 6 (set to 0 to disable)",
+        "name": "insert_6",
+        "type": "int",
+        "default": 2
+    },
+    {
+        "label": "Vector 6 (set to 0 to disable)",
+        "name": "vector_6",
+        "type": "int",
+        "default": 2
+    },
+    {
+        "label": "Insert 7 (set to 0 to disable)",
+        "name": "insert_7",
+        "type": "int",
+        "default": 2
+    },
+    {
+        "label": "Vector 7 (set to 0 to disable)",
+        "name": "vector_7",
+        "type": "int",
+        "default": 2
+    },
+    {
+        "label": "Insert 8 (set to 0 to disable)",
+        "name": "insert_8",
+        "type": "int",
+        "default": 2
+    },
+    {
+        "label": "Vector 8 (set to 0 to disable)",
+        "name": "vector_8",
+        "type": "int",
+        "default": 2
+    }
+]
